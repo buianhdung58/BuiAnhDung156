@@ -13,4 +13,6 @@ using BuiAnhDung156.Models;
         }
 
         public DbSet<BuiAnhDung156.Models.PersonBAD156> PersonBAD156 { get; set; }
+
+        public DbSet<BuiAnhDung156.Models.BAD0156> BAD0156 { get; set; }
     }

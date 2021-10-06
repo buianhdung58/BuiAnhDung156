@@ -1,0 +1,41 @@
+@model IEnumerable<BuiAnhDung156.Models.BAD0156>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Mục lục</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NVNName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NVNGender)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NVNName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NVNGender)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.NVNId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.NVNId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.NVNId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

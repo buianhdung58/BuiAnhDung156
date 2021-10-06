@@ -170,3 +170,8 @@ D:\BuiAnhDung156\obj\Debug\net5.0\Razor\Views\PersonBAD156\Create.cshtml.g.cs
 D:\BuiAnhDung156\obj\Debug\net5.0\Razor\Views\PersonBAD156\Delete.cshtml.g.cs
 D:\BuiAnhDung156\obj\Debug\net5.0\Razor\Views\PersonBAD156\Details.cshtml.g.cs
 D:\BuiAnhDung156\obj\Debug\net5.0\Razor\Views\PersonBAD156\Edit.cshtml.g.cs
+D:\BuiAnhDung156\obj\Debug\net5.0\Razor\Views\PBAD0156\Create.cshtml.g.cs
+D:\BuiAnhDung156\obj\Debug\net5.0\Razor\Views\PBAD0156\Delete.cshtml.g.cs
+D:\BuiAnhDung156\obj\Debug\net5.0\Razor\Views\PBAD0156\Details.cshtml.g.cs
+D:\BuiAnhDung156\obj\Debug\net5.0\Razor\Views\PBAD0156\Edit.cshtml.g.cs
+D:\BuiAnhDung156\obj\Debug\net5.0\Razor\Views\PBAD0156\Index.cshtml.g.cs

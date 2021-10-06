@@ -4,15 +4,17 @@ using System.ComponentModel.DataAnnotations;
 
 namespace BuiAnhDung156.Models
 {
-    public class PersonBAD156
+    public class BAD0156
     {
         [Key]
         [Column(TypeName="nvarchar(20)")]
         [Required]
-        public string PersonId { get; set; }
+        public string NVNId { get; set; }
         [Column(TypeName="nvarchar(50)")]
         [Required]
 
-        public string PersonName { get; set; }
+        public string NVNName { get; set; }
+
+        public Boolean NVNGender { get; set; }
     }
 }
